@@ -1,0 +1,26 @@
+.header-title {
+  margin-bottom: 32px;
+
+  .main-text {
+    color: #484848;
+    font-family: 'Raleway', serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+
+    .green-text {
+      color: #0e7200;
+    }
+  }
+
+  .secound-text {
+    color: #484848;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+}

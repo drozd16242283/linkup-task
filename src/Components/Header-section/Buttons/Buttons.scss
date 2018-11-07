@@ -1,0 +1,44 @@
+.buttons-wrapper {
+  width: 45%;
+  margin-bottom: 45px;
+  margin: auto;
+  display: inline-flex;
+  justify-content: space-between;
+
+  .button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 199px;
+    height: 76px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    opacity: 0.83;
+
+    .btn-content {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      img {
+        padding-right: 10px;
+      }
+
+      .list-icon {
+        height: 22px;
+      }
+
+      .click-icon {
+        height: 35px;
+      }
+
+      p {
+        color: #0e7200;
+        display: inline-flex;
+        justify-content: center;
+        font-family: 'Raleway', serif;
+      }
+    }
+  }
+}

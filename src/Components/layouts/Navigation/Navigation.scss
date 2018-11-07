@@ -1,0 +1,41 @@
+header {
+  width: 80%;
+  margin: auto;
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+
+    .navigation-list-wrapper {
+      min-width: 45%;
+
+      .nav-list {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: 'Raleway', serif;
+        padding-left: 0;
+        margin: 0;
+        height: 100%;
+
+        .horizontal-line {
+          height: 50px;
+          width: 1px;
+          background-color: #323232;
+          opacity: 0.26;
+        }
+
+        .nav-item {
+          text-transform: uppercase;
+          cursor: pointer;
+          transition: color 0.3s ease-out;
+
+          &:hover {
+            color: #00841d;
+          }
+        }
+      }
+    }
+  }
+}
